@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E8A6A7154330180057486C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E8A6A6154330180057486C /* UIKit.framework */; };
+		07E8A6A9154330180057486C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E8A6A8154330180057486C /* Foundation.framework */; };
+		07E8A6AB154330180057486C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07E8A6AA154330180057486C /* CoreGraphics.framework */; };
+		07E8A6B1154330180057486C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07E8A6AF154330180057486C /* InfoPlist.strings */; };
+		07E8A6B3154330180057486C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A6B2154330180057486C /* main.m */; };
+		07E8A6B7154330180057486C /* DFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A6B6154330180057486C /* DFAppDelegate.m */; };
+		07E8A6BA154330180057486C /* DFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07E8A6B9154330180057486C /* DFViewController.m */; };
+		07E8A6BD154330180057486C /* DFViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E8A6BB154330180057486C /* DFViewController_iPhone.xib */; };
+		07E8A6C0154330180057486C /* DFViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E8A6BE154330180057486C /* DFViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07E8A6A2154330180057486C /* DiskFiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiskFiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E8A6A6154330180057486C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07E8A6A8154330180057486C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07E8A6AA154330180057486C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07E8A6AE154330180057486C /* DiskFiller-Info.plist */ = {isa = PBXFileReference; path = "DiskFiller-Info.plist"; sourceTree = "<group>"; };
+		07E8A6B0154330180057486C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07E8A6B2154330180057486C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07E8A6B4154330180057486C /* DiskFiller-Prefix.pch */ = {isa = PBXFileReference; path = "DiskFiller-Prefix.pch"; sourceTree = "<group>"; };
+		07E8A6B5154330180057486C /* DFAppDelegate.h */ = {isa = PBXFileReference; path = DFAppDelegate.h; sourceTree = "<group>"; };
+		07E8A6B6154330180057486C /* DFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFAppDelegate.m; sourceTree = "<group>"; };
+		07E8A6B8154330180057486C /* DFViewController.h */ = {isa = PBXFileReference; path = DFViewController.h; sourceTree = "<group>"; };
+		07E8A6B9154330180057486C /* DFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFViewController.m; sourceTree = "<group>"; };
+		07E8A6BC154330180057486C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFViewController_iPhone.xib; sourceTree = "<group>"; };
+		07E8A6BF154330180057486C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E8A69F154330180057486C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E8A6A7154330180057486C /* UIKit.framework in Frameworks */,
+				07E8A6A9154330180057486C /* Foundation.framework in Frameworks */,
+				07E8A6AB154330180057486C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E8A697154330180057486C = {
+			isa = PBXGroup;
+			children = (
+				07E8A6AC154330180057486C /* DiskFiller */,
+				07E8A6A5154330180057486C /* Frameworks */,
+				07E8A6A3154330180057486C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07E8A6A3154330180057486C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07E8A6A2154330180057486C /* DiskFiller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07E8A6A5154330180057486C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07E8A6A6154330180057486C /* UIKit.framework */,
+				07E8A6A8154330180057486C /* Foundation.framework */,
+				07E8A6AA154330180057486C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07E8A6AC154330180057486C /* DiskFiller */ = {
+			isa = PBXGroup;
+			children = (
+				07E8A6B5154330180057486C /* DFAppDelegate.h */,
+				07E8A6B6154330180057486C /* DFAppDelegate.m */,
+				07E8A6B8154330180057486C /* DFViewController.h */,
+				07E8A6B9154330180057486C /* DFViewController.m */,
+				07E8A6BB154330180057486C /* DFViewController_iPhone.xib */,
+				07E8A6BE154330180057486C /* DFViewController_iPad.xib */,
+				07E8A6AD154330180057486C /* Supporting Files */,
+			);
+			path = DiskFiller;
+			sourceTree = "<group>";
+		};
+		07E8A6AD154330180057486C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07E8A6AE154330180057486C /* DiskFiller-Info.plist */,
+				07E8A6AF154330180057486C /* InfoPlist.strings */,
+				07E8A6B2154330180057486C /* main.m */,
+				07E8A6B4154330180057486C /* DiskFiller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07E8A6A1154330180057486C /* DiskFiller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07E8A6C3154330180057486C /* Build configuration list for PBXNativeTarget "DiskFiller" */;
+			buildPhases = (
+				07E8A69E154330180057486C /* Sources */,
+				07E8A69F154330180057486C /* Frameworks */,
+				07E8A6A0154330180057486C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiskFiller;
+			productName = DiskFiller;
+			productReference = 07E8A6A2154330180057486C /* DiskFiller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07E8A699154330180057486C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DF;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 07E8A69C154330180057486C /* Build configuration list for PBXProject "DiskFiller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07E8A697154330180057486C;
+			productRefGroup = 07E8A6A3154330180057486C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07E8A6A1154330180057486C /* DiskFiller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07E8A6A0154330180057486C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E8A6B1154330180057486C /* InfoPlist.strings in Resources */,
+				07E8A6BD154330180057486C /* DFViewController_iPhone.xib in Resources */,
+				07E8A6C0154330180057486C /* DFViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07E8A69E154330180057486C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E8A6B3154330180057486C /* main.m in Sources */,
+				07E8A6B7154330180057486C /* DFAppDelegate.m in Sources */,
+				07E8A6BA154330180057486C /* DFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07E8A6AF154330180057486C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E8A6B0154330180057486C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07E8A6BB154330180057486C /* DFViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E8A6BC154330180057486C /* en */,
+			);
+			name = DFViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		07E8A6BE154330180057486C /* DFViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07E8A6BF154330180057486C /* en */,
+			);
+			name = DFViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07E8A6C1154330180057486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07E8A6C2154330180057486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07E8A6C4154330180057486C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiskFiller/DiskFiller-Prefix.pch";
+				INFOPLIST_FILE = "DiskFiller/DiskFiller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07E8A6C5154330180057486C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiskFiller/DiskFiller-Prefix.pch";
+				INFOPLIST_FILE = "DiskFiller/DiskFiller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07E8A69C154330180057486C /* Build configuration list for PBXProject "DiskFiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E8A6C1154330180057486C /* Debug */,
+				07E8A6C2154330180057486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07E8A6C3154330180057486C /* Build configuration list for PBXNativeTarget "DiskFiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07E8A6C4154330180057486C /* Debug */,
+				07E8A6C5154330180057486C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07E8A699154330180057486C /* Project object */;
+}
