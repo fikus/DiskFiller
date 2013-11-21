@@ -23,13 +23,13 @@
 		07E8A6A6154330180057486C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07E8A6A8154330180057486C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		07E8A6AA154330180057486C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		07E8A6AE154330180057486C /* DiskFiller-Info.plist */ = {isa = PBXFileReference; path = "DiskFiller-Info.plist"; sourceTree = "<group>"; };
+		07E8A6AE154330180057486C /* DiskFiller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiskFiller-Info.plist"; sourceTree = "<group>"; };
 		07E8A6B0154330180057486C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07E8A6B2154330180057486C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		07E8A6B4154330180057486C /* DiskFiller-Prefix.pch */ = {isa = PBXFileReference; path = "DiskFiller-Prefix.pch"; sourceTree = "<group>"; };
-		07E8A6B5154330180057486C /* DFAppDelegate.h */ = {isa = PBXFileReference; path = DFAppDelegate.h; sourceTree = "<group>"; };
+		07E8A6B4154330180057486C /* DiskFiller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiskFiller-Prefix.pch"; sourceTree = "<group>"; };
+		07E8A6B5154330180057486C /* DFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAppDelegate.h; sourceTree = "<group>"; };
 		07E8A6B6154330180057486C /* DFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFAppDelegate.m; sourceTree = "<group>"; };
-		07E8A6B8154330180057486C /* DFViewController.h */ = {isa = PBXFileReference; path = DFViewController.h; sourceTree = "<group>"; };
+		07E8A6B8154330180057486C /* DFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFViewController.h; sourceTree = "<group>"; };
 		07E8A6B9154330180057486C /* DFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFViewController.m; sourceTree = "<group>"; };
 		07E8A6BC154330180057486C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFViewController_iPhone.xib; sourceTree = "<group>"; };
 		07E8A6BF154330180057486C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DFViewController_iPad.xib; sourceTree = "<group>"; };

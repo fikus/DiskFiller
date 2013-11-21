@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface DFViewController : UIViewController
-
+{
+    IBOutlet UILabel *freeSpaceLabel;
+    IBOutlet UILabel *statusLabel;
+    IBOutlet UIButton *fillButton;
+    IBOutlet UIButton *clearButton;
+}
 @end
